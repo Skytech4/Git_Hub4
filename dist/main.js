@@ -541,3 +541,15 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// This entry module used 'exports' so it can't be inlined
 /******/ })()
 ;
+document.getElementById('search-button').addEventListener('click', () => {
+  const searchDate = document.getElementById('search-date').value;
+  
+  if (searchDate) {
+    // Logique pour filtrer et afficher les tâches selon la date.
+    // Exemple: rechercher les tâches dont la date correspond à `searchDate`.
+    console.log("Recherche de tâches pour la date :", searchDate);
+    // Vous pouvez appeler une fonction de filtrage ici ou intégrer votre logique.
+  } else {
+    alert("Veuillez sélectionner une date pour la recherche.");
+  }
+});

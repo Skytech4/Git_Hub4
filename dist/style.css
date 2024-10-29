@@ -151,9 +151,11 @@ i {
 }
 
 .button-project:hover,
-.button-default-project:hover,
-.button-add-project:hover {
-  background-color: #ccc;
+.button-default-project:hover {
+  background-color: #0080ff;
+}
+.button-add-project:hover{
+  background-color: #ff8c00;
 }
 
 .right-project-panel {
@@ -231,9 +233,10 @@ i {
   cursor: default;
 }
 
-.button-task:hover {
-  background-color: var(--secondary-light);
+.button-add-task:hover {
+  background-color: #32CD32; /* Vert clair */
 }
+
 
 .left-task-panel {
   display: flex;
@@ -306,18 +309,21 @@ i {
 }
 
 .button-add-task {
-  display: block;
-  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0; /* Retirer le padding-left initial */
   margin-top: 10px;
-  text-align: left;
+  text-align: center; /* Centrer le texte */
 }
+
 
 .button-add-task.active {
   display: none;
 }
 
 .button-add-task:hover {
-  background-color: var(--secondary-light);
+  background-color: #32CD32; /* Vert clair */
 }
 
 .add-task-popup {
@@ -415,3 +421,28 @@ i {
     max-width: 33%;
   }
 }
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-input {
+  padding: 5px;
+  border: 1px solid var(--secondary-dark);
+  border-radius: 4px;
+}
+
+.search-button {
+  padding: 5px 10px;
+  background-color: var(--secondary-dark);
+  color:#ff8c00;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: var(--primary-dark);
+}
+
