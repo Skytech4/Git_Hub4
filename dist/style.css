@@ -78,6 +78,8 @@ i {
 .page-name {
   font-family: 'Yusei Magic', sans-serif;
   font-size: 40px;
+  color: cornflowerblue;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .button-open-nav {
@@ -120,9 +122,16 @@ i {
   margin-right: 6px;
 }
 
+.default-projects-title{
+  padding: 10px;
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .projects-title {
   padding: 10px;
   margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .button-project {
@@ -146,7 +155,7 @@ i {
 
 .button-project.active,
 .button-default-project.active {
-  background-color: #ccc;
+  background-color: #cccccc;
   font-weight: bold;
 }
 
@@ -220,6 +229,8 @@ i {
 .project-preview h1 {
   padding: 0 10px;
   margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #302e2e;
 }
 
 .button-task {
