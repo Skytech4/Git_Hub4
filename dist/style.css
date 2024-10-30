@@ -61,7 +61,7 @@ i {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: var(--primary-dark);
+  background-color: #00d0ff;
   color: var(--primary-light);
 }
 
@@ -152,10 +152,10 @@ i {
 
 .button-project:hover,
 .button-default-project:hover {
-  background-color: #0080ff;
+  background-color: #555;
 }
 .button-add-project:hover{
-  background-color: #ff8c00;
+  background-color: #03eefb;
 }
 
 .right-project-panel {
@@ -323,7 +323,7 @@ i {
 }
 
 .button-add-task:hover {
-  background-color: #32CD32; /* Vert clair */
+  background-color: #03eefb; /* Vert clair */
 }
 
 .add-task-popup {
@@ -381,7 +381,7 @@ i {
   gap: 10px;
   width: 100%;
   padding: 10px;
-  background-color: var(--primary-dark);
+  background-color: #00d0ff;
   color: var(--primary-light);
   font-size: 18px;
 }
