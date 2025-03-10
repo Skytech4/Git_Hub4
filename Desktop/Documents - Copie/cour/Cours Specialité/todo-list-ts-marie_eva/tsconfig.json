@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": "src",
+    "allowJs": true,
+    "lib": ["ESNext", "DOM"],
+    "types": ["vite/client"]
+  },
+  "include": ["src/**/*"]
+}
